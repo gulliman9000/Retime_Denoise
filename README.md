@@ -94,6 +94,13 @@ input -> de-emphasis -> bandpass -> AGC -> denoiser -> min-gain floor -> wet/dry
 - **`--backend`**: `rnnoise` (tiny RNN, negligible CPU/latency) or
   `dpdfnet` (heavier model, better on hard noise, CPU-only ONNX inference).
 
+## Example Audio
+
+<audio controls style="width: 100%; max-width: 500px;">
+  <source src="Realtime Denoise Example.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ## Notes / known limitations
 
 - Use headphones for direct mic monitoring — routing mic straight to
@@ -108,9 +115,3 @@ input -> de-emphasis -> bandpass -> AGC -> denoiser -> min-gain floor -> wet/dry
   signals, the bandpass filter and min-gain floor generally help more than
   pushing the neural stage harder.
 - Changing input/output device in the GUI requires Stop then Start.
-
-
-
-<audio controls>
-  <source src="Realtime Denoise Example.mp3" type="audio/mpeg">
-</audio>
