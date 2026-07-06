@@ -96,9 +96,7 @@ input -> de-emphasis -> bandpass -> AGC -> denoiser -> min-gain floor -> wet/dry
 
 ## Example Audio
 
-<video controls width="800">
-    <source src="Realtime Denoise Example.mp4" type="video/mp4">
-</video>
+[Watch the demo](Realtime Denoise Example.mp4)
 
 ## Notes / known limitations
 
