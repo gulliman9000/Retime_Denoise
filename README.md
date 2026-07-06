@@ -97,7 +97,7 @@ input -> de-emphasis -> bandpass -> AGC -> denoiser -> min-gain floor -> wet/dry
 ## Example Audio
 
 <audio controls style="width: 100%; max-width: 500px;">
-  <source src="Realtime Denoise Example.mp3" type="audio/mpeg">
+  <source src="https://github.com/gulliman9000/Realtime_Denoise/releases/download/v1.0/Realtime%20Denoise%20Example.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -115,10 +115,3 @@ input -> de-emphasis -> bandpass -> AGC -> denoiser -> min-gain floor -> wet/dry
   signals, the bandpass filter and min-gain floor generally help more than
   pushing the neural stage harder.
 - Changing input/output device in the GUI requires Stop then Start.
-
-
-
-<audio controls>
-  <source src="Realtime Denoise Example.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
